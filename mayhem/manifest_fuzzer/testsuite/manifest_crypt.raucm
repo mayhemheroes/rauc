@@ -1,0 +1,12 @@
+[update]
+compatible=Test Config
+version=2011.03-2
+
+[bundle]
+format=crypt
+
+[image.rootfs]
+filename=rootfs.img
+
+[image.appfs]
+filename=appfs.img

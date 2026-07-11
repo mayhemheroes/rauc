@@ -1,0 +1,8 @@
+project: rauc
+target: bundle_fuzzer
+cmds:
+  - cmd: /mayhem/bundle_fuzzer
+    libfuzzer: true
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/bundle_fuzzer/testsuite

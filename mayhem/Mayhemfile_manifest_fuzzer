@@ -1,0 +1,9 @@
+project: rauc
+target: manifest_fuzzer
+cmds:
+  - cmd: /mayhem/manifest_fuzzer
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/manifest_fuzzer.dict
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/manifest_fuzzer/testsuite

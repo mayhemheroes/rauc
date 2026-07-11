@@ -1,0 +1,11 @@
+[update]
+compatible=Demo Device
+version=1.0
+
+[bundle]
+format=plain
+
+[image.rootfs]
+filename=rootfs.ext4
+size=4096
+sha256=0000000000000000000000000000000000000000000000000000000000000000
